@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  background-color: #e5d7d2;
+  padding: 80px 120px;
+}
+
+.container .three-box {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.three-box .first-box {
+  width: 33%;
+  background-color: #d1edc0;
+  border-radius: 20px;
+  height: fit-content;
+  overflow: hidden;
+  padding: 25px 20px 40px 20px;
+}
+
+.first-box h1 {
+  text-align: center;
+  margin-top: 30px;
+  text-transform: capitalize;
+  font-size: 25px;
+  /* font-family: sans-serif; */
+  padding-inline: 60px;
+  line-height: 35px;
+}
+
+.first-box img {
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.first-box .first-logo-img {
+  margin: 0;
+}
+
+.first-box p {
+  font-size: 14px;
+  text-align: left;
+  padding-inline: 38px;
+  margin-top: 20px;
+}
+
+.first-box button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: #25282b;
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  width: 90%;
+  padding-block: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.first-box .first-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-top .star img {
+  width: 20px;
+}
+
+.first-top .first-logo {
+  display: flex;
+  align-items: center;
+}
+
+.first-logo img {
+  width: 30px;
+}
+
+.first-logo h3 {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.three-box .second-box {
+  background-color: #faf4f1;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 33%;
+  position: relative;
+}
+
+.second-box .second-top-con {
+  padding: 30px 20px 20px 20px;
+}
+
+.second-top-con h1 {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.second-top-con p {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.second-top-con p i {
+  color: #ffbb0b;
+  margin-right: 4px;
+  margin-bottom: 20px;
+}
+
+.second-top-con .second-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-top-con .input {
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.second-top-con .input i {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+}
+
+.second-top-con .last-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-top-con .last-prof {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.second-box .active {
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+}
+
+.active .active-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.active-top h2 {
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.active-top p {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: gray;
+  font-weight: 400;
+}
+
+.active .blog-one {
+  border: 1px solid gray;
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.active .blog-two {
+  padding-bottom: 30px;
+}
+
+.blog-one span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-one span h2 {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: gray;
+  font-weight: 500;
+}
+
+.blog-one span p {
+  color: gray;
+  font-size: 12px;
+}
+
+.blog-one h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.blog-one .exla {
+  font-size: 14px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.second-box .second-footer {
+  box-shadow: 1px 1px 2px gray;
+  background: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1px 1px 2px black;
+}
+
+.second-footer i {
+  color: gray;
+}
+
+.second-footer i:first-child {
+  color: black;
+}
+
+.exla i {
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+}
+
+.last-prof img {
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.last-con h4 {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.input input {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.second-top .second-top-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.second-top-logo img {
+  width: 40px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+}
+
+.third{
+  width: 33%;
+}
+
+.third .teen-green-box{
+  background-color: #D1EDC0;
+  padding: 30px 20px 20px 20px;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  top: 10px;
+}
+
+.teen-green-box span{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teen-green-box span .can{
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teen-green-box span .dots{
+  transform: rotate(90deg);
+}
+
+.teen-green-box .dim{
+  width: 50px;
+  height: 3px;
+  background-color: #B5D8A0;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.three-box .teen-box {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  height: fit-content;
+}
+
+.teen-box .teen-box-con {
+  padding: 20px;
+}
+
+.teen-box-con h1 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.teen-box-con .daily-p span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.daily-p span h2{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.daily-p span p{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.daily-p .line{
+  width: 100%;
+  height: 3px;
+  background: #dbdbdb;
+  margin-bottom: 10px;
+}
+
+.daily-p .line span{
+  width: 80%;
+  height: 3px;
+  background: black;
+}
+
+.daily-p p{
+  font-size: 12px;
+}
+
+.teen-box-con .two-box-con{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.two-box-con .two-box{
+  background-color: #FFE7AB;
+  width: 48%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.two-box span{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  text-transform: capitalize;
+  gap: 5px;
+}
+
+.two-box h3{
+  font-weight: 600;
+}
+
+.teen-box-con .over{
+  padding: 20px 0;
+}
+
+.over h4{
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.over p{
+  font-size: 12px;
+  color: gray;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.teen-box-con .member h4{
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.member .member-img{
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.member .member-img img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.member .member-img .plus{
+  width: 40px;
+  height: 40px;
+  background: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.teen-box .second-footer{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-around;
+  /* box-shadow: 1px 1px 2px black; */
+  border: 1px solid #efe5e5;
+}
+
+.teen-box .second-footer i{
+  color: gray;
+}
+
+.teen-box .second-footer i:nth-child(3){
+  color: black;
+}
+
+@media (max-width:768px){
+  .container{
+    padding: 20px;
+  }
+
+  .container .three-box{
+    flex-direction: column;
+  }
+
+  .three-box .first-box{
+    width: 100%;
+  }
+
+  .three-box .second-box{
+    width: 100%;
+  }
+
+  .three-box .third{
+    width: 100%;
+  }
+}
